@@ -4,6 +4,11 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
+	  <PublishSingleFile>true</PublishSingleFile>
+	  <SelfContained>true</SelfContained>
+	  <IncludeAllContentForSelfExtract>true</IncludeAllContentForSelfExtract>
+	  <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+	  <!--Specify the appropriate runtime here-->
   </PropertyGroup>
 
   <ItemGroup>
